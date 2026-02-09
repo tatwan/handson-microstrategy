@@ -1,0 +1,76 @@
+PR_ID,PR_Date,PR_Creator,PR_Approver,Vendor_Name,Vendor_City,PR_Amount_USD,Expense_Category,Bidding_Type,Approval_Days,Standard_Max_Days,PO_Status,PO_Open_Days,Is_Same_Creator_Approver
+PR-001,2025-01-05,Ahmed Al-Said,Fatima Hassan,Gulf Supplies Co.,Muscat,12500,Equipment,Competitive,3,5,Closed,0,N
+PR-002,2025-01-07,John Smith,Layla Mahmoud,TechPro Solutions,Dubai,87000,IT,Competitive,4,5,Closed,0,N
+PR-003,2025-01-09,Fatima Hassan,Fatima Hassan,Atlas Consulting,Riyadh,45000,Consulting,Single_Source,2,7,Closed,0,Y
+PR-004,2025-01-12,Noor Al-Busaidi,Omar Khalil,Pinnacle Trading LLC,Muscat,2300,Office Supplies,Competitive,2,3,Closed,0,N
+PR-005,2025-01-14,Sara Al-Harthi,David Chen,Al Jazeera Logistics,Dubai,67500,Services,Competitive,5,5,Closed,0,N
+PR-006,2025-01-17,Omar Khalil,Ahmed Al-Said,Orion Systems Inc.,London,134000,IT,Competitive,4,5,Open,125,N
+PR-007,2025-01-19,David Chen,Sara Al-Harthi,ClearPath Engineering,New York,9800,Equipment,Competitive,3,5,Closed,0,N
+PR-008,2025-01-22,Layla Mahmoud,Noor Al-Busaidi,Gulf Supplies Co.,Muscat,1500,Office Supplies,Competitive,1,3,Closed,0,N
+PR-009,2025-01-24,Khalid Al-Rawahi,John Smith,Desert Star Catering,Muscat,4200,Travel,Competitive,2,5,Closed,0,N
+PR-010,2025-01-27,Ahmed Al-Said,Ahmed Al-Said,Vertex Global Partners,London,198000,Consulting,Single_Source,6,7,Open,142,Y
+PR-011,2025-01-29,Maria Santos,Fatima Hassan,Falcon Security Services,Dubai,23000,Services,Competitive,4,5,Closed,0,N
+PR-012,2025-02-02,John Smith,Omar Khalil,TechPro Solutions,Dubai,56000,IT,Competitive,5,5,Closed,0,N
+PR-013,2025-02-04,Fatima Hassan,David Chen,Al Noor Medical Supplies,Muscat,8900,Equipment,Competitive,3,5,Partially_Received,45,N
+PR-014,2025-02-06,Sara Al-Harthi,Sara Al-Harthi,Crescent Furniture Co.,Riyadh,15600,Equipment,Selective,7,5,Closed,0,Y
+PR-015,2025-02-09,Noor Al-Busaidi,Ahmed Al-Said,BlueSky Aviation,Dubai,42000,Travel,Competitive,4,5,Closed,0,N
+PR-016,2025-02-11,Omar Khalil,Layla Mahmoud,Gulf Supplies Co.,Muscat,3100,Office Supplies,Competitive,2,3,Closed,0,N
+PR-017,2025-02-13,David Chen,Khalid Al-Rawahi,Zenith IT Consulting,New York,112000,IT,Competitive,5,5,Closed,0,N
+PR-018,2025-02-16,Layla Mahmoud,Layla Mahmoud,Oasis Travel Agency,Muscat,7800,Travel,Single_Source,3,5,Closed,0,Y
+PR-019,2025-02-18,Khalid Al-Rawahi,Fatima Hassan,Petra Construction Co.,Riyadh,245000,Equipment,Competitive,4,5,Partially_Received,62,N
+PR-020,2025-02-20,Ahmed Al-Said,John Smith,Horizon Marketing Group,London,28500,Consulting,Selective,6,7,Closed,0,N
+PR-021,2025-02-23,Maria Santos,Omar Khalil,Al Jazeera Logistics,Dubai,19500,Services,Competitive,3,5,Closed,0,N
+PR-022,2025-02-25,John Smith,David Chen,ClearPath Engineering,New York,74000,IT,Competitive,4,5,Closed,0,N
+PR-023,2025-02-27,Fatima Hassan,Noor Al-Busaidi,Gulf Supplies Co.,Muscat,950,Office Supplies,Competitive,1,3,Closed,0,N
+PR-024,2025-03-02,Sara Al-Harthi,Ahmed Al-Said,TechPro Solutions,Dubai,63000,IT,Competitive,5,5,Open,98,N
+PR-025,2025-03-04,Noor Al-Busaidi,Fatima Hassan,Vertex Global Partners,London,89000,Consulting,Competitive,3,7,Closed,0,N
+PR-026,2025-03-06,Omar Khalil,Omar Khalil,Falcon Security Services,Dubai,31200,Services,Single_Source,8,5,Open,110,Y
+PR-027,2025-03-09,David Chen,Sara Al-Harthi,Atlas Consulting,Riyadh,52000,Consulting,Selective,5,7,Closed,0,N
+PR-028,2025-03-11,Layla Mahmoud,Khalid Al-Rawahi,Pinnacle Trading LLC,Muscat,4700,Office Supplies,Competitive,2,3,Closed,0,N
+PR-029,2025-03-13,Khalid Al-Rawahi,John Smith,Orion Systems Inc.,London,167000,IT,Competitive,4,5,Closed,0,N
+PR-030,2025-03-16,Ahmed Al-Said,Maria Santos,Desert Star Catering,Muscat,5600,Travel,Competitive,2,5,Closed,0,N
+PR-031,2025-03-18,Maria Santos,Maria Santos,BlueSky Aviation,Dubai,38000,Travel,Competitive,9,5,Closed,0,Y
+PR-032,2025-03-20,John Smith,Fatima Hassan,Al Noor Medical Supplies,Muscat,11200,Equipment,Competitive,3,5,Partially_Received,30,N
+PR-033,2025-03-23,Fatima Hassan,Omar Khalil,Zenith IT Consulting,New York,95000,IT,Competitive,5,5,Closed,0,N
+PR-034,2025-03-25,Sara Al-Harthi,David Chen,Crescent Furniture Co.,Riyadh,7200,Equipment,Competitive,4,5,Closed,0,N
+PR-035,2025-03-27,Noor Al-Busaidi,Ahmed Al-Said,Oasis Travel Agency,Muscat,3400,Travel,Competitive,2,5,Closed,0,N
+PR-036,2025-03-30,Omar Khalil,Layla Mahmoud,Horizon Marketing Group,London,41000,Consulting,Competitive,4,7,Closed,0,N
+PR-037,2025-04-01,David Chen,Khalid Al-Rawahi,Gulf Supplies Co.,Muscat,2800,Office Supplies,Competitive,2,3,Closed,0,N
+PR-038,2025-04-03,Layla Mahmoud,Noor Al-Busaidi,Al Jazeera Logistics,Dubai,22000,Services,Competitive,3,5,Closed,0,N
+PR-039,2025-04-06,Khalid Al-Rawahi,Khalid Al-Rawahi,ClearPath Engineering,New York,143000,IT,Single_Source,12,5,Open,135,Y
+PR-040,2025-04-08,Ahmed Al-Said,Fatima Hassan,Petra Construction Co.,Riyadh,210000,Equipment,Competitive,5,5,Partially_Received,55,N
+PR-041,2025-04-10,Maria Santos,John Smith,TechPro Solutions,Dubai,48000,IT,Competitive,4,5,Closed,0,N
+PR-042,2025-04-13,John Smith,Omar Khalil,Falcon Security Services,Dubai,16800,Services,Competitive,3,5,Closed,0,N
+PR-043,2025-04-15,Fatima Hassan,David Chen,Atlas Consulting,Riyadh,72000,Consulting,Selective,6,7,Closed,0,N
+PR-044,2025-04-17,Sara Al-Harthi,Ahmed Al-Said,Pinnacle Trading LLC,Muscat,1800,Office Supplies,Competitive,2,3,Closed,0,N
+PR-045,2025-04-20,Noor Al-Busaidi,Sara Al-Harthi,Vertex Global Partners,London,105000,Consulting,Competitive,5,7,Closed,0,N
+PR-046,2025-04-22,Omar Khalil,Fatima Hassan,Orion Systems Inc.,London,58000,IT,Competitive,4,5,Closed,0,N
+PR-047,2025-04-24,David Chen,David Chen,Desert Star Catering,Muscat,6400,Travel,Single_Source,3,5,Closed,0,Y
+PR-048,2025-04-27,Layla Mahmoud,Khalid Al-Rawahi,BlueSky Aviation,Dubai,29000,Travel,Competitive,2,5,Closed,0,N
+PR-049,2025-04-29,Khalid Al-Rawahi,Maria Santos,Al Noor Medical Supplies,Muscat,14300,Equipment,Competitive,5,5,Closed,0,N
+PR-050,2025-05-02,Ahmed Al-Said,John Smith,Gulf Supplies Co.,Muscat,2100,Office Supplies,Competitive,1,3,Closed,0,N
+PR-051,2025-05-04,Maria Santos,Layla Mahmoud,Zenith IT Consulting,New York,81000,IT,Competitive,4,5,Closed,0,N
+PR-052,2025-05-06,John Smith,John Smith,Crescent Furniture Co.,Riyadh,19500,Equipment,Selective,10,5,Partially_Received,78,Y
+PR-053,2025-05-08,Fatima Hassan,Omar Khalil,Al Jazeera Logistics,Dubai,33000,Services,Competitive,3,5,Closed,0,N
+PR-054,2025-05-11,Sara Al-Harthi,Ahmed Al-Said,Horizon Marketing Group,London,54000,Consulting,Competitive,7,7,Closed,0,N
+PR-055,2025-05-13,Noor Al-Busaidi,David Chen,TechPro Solutions,Dubai,126000,IT,Competitive,5,5,Closed,0,N
+PR-056,2025-05-15,Omar Khalil,Fatima Hassan,ClearPath Engineering,New York,43500,Services,Competitive,4,5,Closed,0,N
+PR-057,2025-05-18,David Chen,Khalid Al-Rawahi,Oasis Travel Agency,Muscat,8700,Travel,Competitive,2,5,Closed,0,N
+PR-058,2025-05-20,Layla Mahmoud,Noor Al-Busaidi,Petra Construction Co.,Riyadh,178000,Equipment,Competitive,5,5,Open,95,N
+PR-059,2025-05-22,Khalid Al-Rawahi,Ahmed Al-Said,Atlas Consulting,Riyadh,61000,Consulting,Single_Source,15,7,Closed,0,N
+PR-060,2025-05-25,Ahmed Al-Said,Ahmed Al-Said,Pinnacle Trading LLC,Muscat,3500,Office Supplies,Competitive,3,3,Closed,0,Y
+PR-061,2025-05-27,Maria Santos,Sara Al-Harthi,Falcon Security Services,Dubai,27000,Services,Competitive,4,5,Closed,0,N
+PR-062,2025-05-29,John Smith,Fatima Hassan,Gulf Supplies Co.,Muscat,6200,Equipment,Competitive,3,5,Closed,0,N
+PR-063,2025-06-01,Fatima Hassan,Omar Khalil,Orion Systems Inc.,London,92000,IT,Competitive,5,5,Partially_Received,40,N
+PR-064,2025-06-03,Sara Al-Harthi,David Chen,BlueSky Aviation,Dubai,11500,Travel,Competitive,2,5,Closed,0,N
+PR-065,2025-06-05,Noor Al-Busaidi,Layla Mahmoud,Vertex Global Partners,London,148000,Consulting,Competitive,6,7,Closed,0,N
+PR-066,2025-06-08,Omar Khalil,Khalid Al-Rawahi,Desert Star Catering,Muscat,3900,Travel,Competitive,1,5,Closed,0,N
+PR-067,2025-06-10,David Chen,Maria Santos,TechPro Solutions,Dubai,69000,IT,Competitive,4,5,Closed,0,N
+PR-068,2025-06-12,Layla Mahmoud,Ahmed Al-Said,Al Noor Medical Supplies,Muscat,17600,Equipment,Competitive,3,5,Closed,0,N
+PR-069,2025-06-15,Khalid Al-Rawahi,Noor Al-Busaidi,Zenith IT Consulting,New York,103000,IT,Single_Source,5,5,Closed,0,N
+PR-070,2025-06-17,Ahmed Al-Said,Fatima Hassan,Crescent Furniture Co.,Riyadh,8400,Equipment,Competitive,5,5,Closed,0,N
+PR-071,2025-06-19,Maria Santos,Omar Khalil,Al Jazeera Logistics,Dubai,25000,Services,Competitive,3,5,Closed,0,N
+PR-072,2025-06-22,John Smith,Fatima Hassan,Horizon Marketing Group,London,37000,Consulting,Selective,6,7,Closed,0,N
+PR-073,2025-06-24,Fatima Hassan,David Chen,ClearPath Engineering,New York,55000,IT,Competitive,4,5,Closed,0,N
+PR-074,2025-06-26,Sara Al-Harthi,Khalid Al-Rawahi,Gulf Supplies Co.,Muscat,1200,Office Supplies,Competitive,2,3,Closed,0,N
+PR-075,2025-06-29,Noor Al-Busaidi,Ahmed Al-Said,Petra Construction Co.,Riyadh,189000,Equipment,Competitive,5,5,Closed,0,N
