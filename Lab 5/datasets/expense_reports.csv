@@ -1,0 +1,81 @@
+Report_ID,Employee_ID,Employee_Name,Department,Location,Submission_Date,Approval_Date,Approver_Name,Expense_Type,Amount_USD,Receipt_Attached,Is_Split_Transaction,Is_Missing_Receipt,Is_Weekend_Submission
+EXP-001,EMP-011,Aisha Darwish,HR,Riyadh Office,2025-01-22,2025-01-24,David Wilson,Training,432.28,Y,Y,N,N
+EXP-002,EMP-011,Aisha Darwish,HR,Riyadh Office,2025-01-23,2025-01-25,David Wilson,Training,428.07,Y,Y,N,N
+EXP-003,EMP-002,Fatima Hassan,IT,Muscat HQ,2025-05-14,2025-05-16,Saeed Al-Maskari,Training,448.36,Y,Y,N,N
+EXP-004,EMP-002,Fatima Hassan,IT,Muscat HQ,2025-05-15,2025-05-16,Saeed Al-Maskari,Training,467.69,Y,Y,N,N
+EXP-005,EMP-001,Ahmed Al-Said,Finance,Muscat HQ,2025-01-03,2025-01-05,Amina Sulaiman,Meals,462.36,Y,Y,N,N
+EXP-006,EMP-001,Ahmed Al-Said,Finance,Muscat HQ,2025-01-04,2025-01-06,Amina Sulaiman,Meals,426.23,Y,Y,N,N
+EXP-007,EMP-012,Tariq Salim,Procurement,Muscat HQ,2025-02-17,2025-02-19,Hassan Al-Balushi,Meals,489.95,Y,Y,N,N
+EXP-008,EMP-012,Tariq Salim,Procurement,Muscat HQ,2025-02-18,2025-02-21,Hassan Al-Balushi,Meals,465.61,Y,Y,N,N
+EXP-009,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-06-23,2025-06-24,Saeed Al-Maskari,Training,423.62,Y,Y,N,N
+EXP-010,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-06-24,2025-06-25,Saeed Al-Maskari,Training,481.07,Y,Y,N,N
+EXP-011,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-04-08,2025-04-10,Rawya Ibrahim,Training,488.45,Y,Y,N,N
+EXP-012,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-04-09,2025-04-12,Rawya Ibrahim,Training,441.96,Y,Y,N,N
+EXP-013,EMP-010,Khalid Nasser,Audit,Muscat HQ,2025-05-09,2025-05-11,David Wilson,Client Entertainment,432.85,Y,Y,N,N
+EXP-014,EMP-010,Khalid Nasser,Audit,Muscat HQ,2025-05-10,2025-05-12,David Wilson,Client Entertainment,436.55,Y,Y,N,N
+EXP-015,EMP-003,John Smith,Operations,Dubai Office,2025-04-11,2025-04-12,Saeed Al-Maskari,Meals,468.12,Y,Y,N,N
+EXP-016,EMP-003,John Smith,Operations,Dubai Office,2025-04-12,2025-04-13,Saeed Al-Maskari,Meals,462.2,Y,Y,N,N
+EXP-017,EMP-013,Huda Al-Harthi,Finance,London Office,2025-02-19,2025-02-22,David Wilson,Office Supplies,839.84,Y,N,N,N
+EXP-018,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-06-18,2025-06-23,Amina Sulaiman,Office Supplies,2659.82,Y,N,N,N
+EXP-019,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-04-12,2025-04-14,Hassan Al-Balushi,Office Supplies,2698.58,Y,N,N,Y
+EXP-020,EMP-003,John Smith,Operations,Dubai Office,2025-01-05,2025-01-07,Hassan Al-Balushi,Office Supplies,318.18,Y,N,N,Y
+EXP-021,EMP-013,Huda Al-Harthi,Finance,London Office,2025-04-17,2025-04-20,Amina Sulaiman,Client Entertainment,237.41,Y,N,N,N
+EXP-022,EMP-009,Mariam Al-Lawati,Operations,Dubai Office,2025-06-18,2025-06-21,Saeed Al-Maskari,Training,2176.13,Y,N,N,N
+EXP-023,EMP-013,Huda Al-Harthi,Finance,London Office,2025-01-24,2025-01-27,David Wilson,Meals,915.83,Y,N,N,N
+EXP-024,EMP-009,Mariam Al-Lawati,Operations,Dubai Office,2025-06-10,2025-06-15,Rawya Ibrahim,Client Entertainment,2742.25,Y,N,N,N
+EXP-025,EMP-010,Khalid Nasser,Audit,Muscat HQ,2025-02-18,2025-02-23,Rawya Ibrahim,Transportation,1153.05,Y,N,N,N
+EXP-026,EMP-015,Zainab Al-Hinai,Legal,Muscat HQ,2025-03-27,2025-03-30,Saeed Al-Maskari,Client Entertainment,1006.26,Y,N,N,N
+EXP-027,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-01-03,2025-01-07,Saeed Al-Maskari,Transportation,2640.13,Y,N,N,N
+EXP-028,EMP-014,Ibrahim Juma,IT,Dubai Office,2025-02-05,2025-02-09,Saeed Al-Maskari,Miscellaneous,1621.48,Y,N,N,N
+EXP-029,EMP-009,Mariam Al-Lawati,Operations,Dubai Office,2025-05-14,2025-05-16,Rawya Ibrahim,Accommodation,1606.64,Y,N,N,N
+EXP-030,EMP-015,Zainab Al-Hinai,Legal,Muscat HQ,2025-03-13,2025-03-16,Hassan Al-Balushi,Miscellaneous,2203.3,Y,N,N,N
+EXP-031,EMP-008,Yusuf Khamis,IT,Muscat HQ,2025-02-03,2025-02-06,Hassan Al-Balushi,Office Supplies,406.96,N,N,Y,N
+EXP-032,EMP-001,Ahmed Al-Said,Finance,Muscat HQ,2025-02-01,2025-02-02,Hassan Al-Balushi,Client Entertainment,728.84,Y,N,N,Y
+EXP-033,EMP-012,Tariq Salim,Procurement,Muscat HQ,2025-01-28,2025-01-31,Saeed Al-Maskari,Transportation,248.83,Y,N,N,N
+EXP-034,EMP-002,Fatima Hassan,IT,Muscat HQ,2025-04-07,2025-04-12,Hassan Al-Balushi,Transportation,871.51,N,N,Y,N
+EXP-035,EMP-003,John Smith,Operations,Dubai Office,2025-04-07,2025-04-08,Hassan Al-Balushi,Client Entertainment,1444.38,Y,N,N,N
+EXP-036,EMP-002,Fatima Hassan,IT,Muscat HQ,2025-04-28,2025-04-29,Amina Sulaiman,Accommodation,1299.56,Y,N,N,N
+EXP-037,EMP-011,Aisha Darwish,HR,Riyadh Office,2025-03-26,2025-03-27,Saeed Al-Maskari,Meals,1237.73,N,N,Y,N
+EXP-038,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-02-14,2025-02-16,Rawya Ibrahim,Transportation,1632.04,Y,N,N,N
+EXP-039,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-01-15,2025-01-20,Amina Sulaiman,Transportation,2629.73,Y,N,N,N
+EXP-040,EMP-002,Fatima Hassan,IT,Muscat HQ,2025-01-19,2025-01-24,Saeed Al-Maskari,Training,2997.88,Y,N,N,Y
+EXP-041,EMP-001,Ahmed Al-Said,Finance,Muscat HQ,2025-04-17,2025-04-22,David Wilson,Meals,197.92,N,N,Y,N
+EXP-042,EMP-003,John Smith,Operations,Dubai Office,2025-02-03,2025-02-08,Saeed Al-Maskari,Client Entertainment,286.33,Y,N,N,N
+EXP-043,EMP-002,Fatima Hassan,IT,Muscat HQ,2025-05-08,2025-05-13,Rawya Ibrahim,Office Supplies,403.67,Y,N,N,N
+EXP-044,EMP-010,Khalid Nasser,Audit,Muscat HQ,2025-06-19,2025-06-24,Saeed Al-Maskari,Client Entertainment,291.85,Y,N,N,N
+EXP-045,EMP-009,Mariam Al-Lawati,Operations,Dubai Office,2025-06-11,2025-06-13,David Wilson,Accommodation,652.56,Y,N,N,N
+EXP-046,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-03-25,2025-03-26,Amina Sulaiman,Transportation,2031.49,N,N,Y,N
+EXP-047,EMP-001,Ahmed Al-Said,Finance,Muscat HQ,2025-01-03,2025-01-08,Amina Sulaiman,Client Entertainment,2995.44,Y,N,N,N
+EXP-048,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-03-03,2025-03-05,Hassan Al-Balushi,Accommodation,440.75,Y,N,N,N
+EXP-049,EMP-006,Omar Khalil,Procurement,Riyadh Office,2025-05-23,2025-05-26,David Wilson,Transportation,1342.64,Y,N,N,N
+EXP-050,EMP-010,Khalid Nasser,Audit,Muscat HQ,2025-06-04,2025-06-06,Hassan Al-Balushi,Meals,2020.2,Y,N,N,N
+EXP-051,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-03-20,2025-03-22,Saeed Al-Maskari,Meals,2240.13,Y,N,N,N
+EXP-052,EMP-012,Tariq Salim,Procurement,Muscat HQ,2025-03-17,2025-03-21,David Wilson,Transportation,2078.12,N,N,Y,N
+EXP-053,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-02-21,2025-02-24,Saeed Al-Maskari,Meals,1921.14,Y,N,N,N
+EXP-054,EMP-003,John Smith,Operations,Dubai Office,2025-05-01,2025-05-02,Amina Sulaiman,Client Entertainment,2131.72,Y,N,N,N
+EXP-055,EMP-002,Fatima Hassan,IT,Muscat HQ,2025-03-19,2025-03-24,Rawya Ibrahim,Client Entertainment,156.28,Y,N,N,N
+EXP-056,EMP-003,John Smith,Operations,Dubai Office,2025-03-26,2025-03-27,Amina Sulaiman,Transportation,173.4,Y,N,N,N
+EXP-057,EMP-015,Zainab Al-Hinai,Legal,Muscat HQ,2025-06-04,2025-06-07,David Wilson,Transportation,2062.1,N,N,Y,N
+EXP-058,EMP-013,Huda Al-Harthi,Finance,London Office,2025-02-26,2025-02-28,Hassan Al-Balushi,Miscellaneous,1248.81,Y,N,N,N
+EXP-059,EMP-015,Zainab Al-Hinai,Legal,Muscat HQ,2025-03-26,2025-03-30,Amina Sulaiman,Meals,579.11,Y,N,N,N
+EXP-060,EMP-013,Huda Al-Harthi,Finance,London Office,2025-06-04,2025-06-08,Rawya Ibrahim,Accommodation,519.63,N,N,Y,N
+EXP-061,EMP-014,Ibrahim Juma,IT,Dubai Office,2025-02-27,2025-03-03,Saeed Al-Maskari,Miscellaneous,1438.54,N,N,Y,N
+EXP-062,EMP-006,Omar Khalil,Procurement,Riyadh Office,2025-01-22,2025-01-24,David Wilson,Miscellaneous,2396.27,Y,N,N,N
+EXP-063,EMP-007,Sara Al-Rashdi,Finance,London Office,2025-03-12,2025-03-17,David Wilson,Accommodation,2599.84,Y,N,N,N
+EXP-064,EMP-007,Sara Al-Rashdi,Finance,London Office,2025-01-09,2025-01-11,Hassan Al-Balushi,Accommodation,2820.75,Y,N,N,N
+EXP-065,EMP-010,Khalid Nasser,Audit,Muscat HQ,2025-06-26,2025-06-29,David Wilson,Meals,369.79,Y,N,N,N
+EXP-066,EMP-007,Sara Al-Rashdi,Finance,London Office,2025-05-07,2025-05-10,Hassan Al-Balushi,Client Entertainment,391.16,Y,N,N,N
+EXP-067,EMP-001,Ahmed Al-Said,Finance,Muscat HQ,2025-05-22,2025-05-24,Amina Sulaiman,Meals,1583.77,Y,N,N,N
+EXP-068,EMP-006,Omar Khalil,Procurement,Riyadh Office,2025-03-20,2025-03-23,Amina Sulaiman,Meals,2849.18,Y,N,N,N
+EXP-069,EMP-011,Aisha Darwish,HR,Riyadh Office,2025-03-13,2025-03-16,Saeed Al-Maskari,Training,2705.14,Y,N,N,N
+EXP-070,EMP-009,Mariam Al-Lawati,Operations,Dubai Office,2025-04-22,2025-04-24,Rawya Ibrahim,Transportation,1290.32,Y,N,N,N
+EXP-071,EMP-010,Khalid Nasser,Audit,Muscat HQ,2025-01-10,2025-01-13,Hassan Al-Balushi,Accommodation,1247.92,Y,N,N,N
+EXP-072,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-06-11,2025-06-15,Amina Sulaiman,Miscellaneous,1760.96,Y,N,N,N
+EXP-073,EMP-008,Yusuf Khamis,IT,Muscat HQ,2025-06-06,2025-06-07,Amina Sulaiman,Training,680.42,Y,N,N,N
+EXP-074,EMP-005,Noor Al-Busaidi,Legal,Muscat HQ,2025-03-03,2025-03-05,Hassan Al-Balushi,Training,1917.18,Y,N,N,N
+EXP-075,EMP-011,Aisha Darwish,HR,Riyadh Office,2025-02-01,2025-02-02,David Wilson,Transportation,2429.36,Y,N,N,Y
+EXP-076,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-01-15,2025-01-19,Amina Sulaiman,Client Entertainment,2556.73,N,N,Y,N
+EXP-077,EMP-015,Zainab Al-Hinai,Legal,Muscat HQ,2025-04-16,2025-04-20,Hassan Al-Balushi,Transportation,2169.12,Y,N,N,N
+EXP-078,EMP-004,Layla Mahmoud,HR,Dubai Office,2025-04-08,2025-04-10,Rawya Ibrahim,Training,2078.49,Y,N,N,N
+EXP-079,EMP-013,Huda Al-Harthi,Finance,London Office,2025-05-18,2025-05-23,Hassan Al-Balushi,Office Supplies,198.14,Y,N,N,Y
+EXP-080,EMP-006,Omar Khalil,Procurement,Riyadh Office,2025-05-14,2025-05-19,Amina Sulaiman,Client Entertainment,2454.27,Y,N,N,N

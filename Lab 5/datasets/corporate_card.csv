@@ -1,0 +1,101 @@
+Transaction_ID,Employee_ID,Employee_Name,Department,Transaction_Date,Merchant_Name,Merchant_Category,Amount_USD,Receipt_Provided,Is_Personal_Use,Is_Duplicate_Charge,Is_High_Value_No_Receipt
+TXN-0001,EMP-008,Yusuf Khamis,IT,2025-04-15,Emirates Airlines,Travel,1538.58,Y,N,Y,N
+TXN-0002,EMP-008,Yusuf Khamis,IT,2025-04-15,Emirates Airlines,Travel,1538.58,Y,N,Y,N
+TXN-0003,EMP-005,Noor Al-Busaidi,Legal,2025-03-25,Emirates Airlines,Travel,1711.75,Y,N,Y,N
+TXN-0004,EMP-005,Noor Al-Busaidi,Legal,2025-03-25,Emirates Airlines,Travel,1711.75,Y,N,Y,N
+TXN-0005,EMP-013,Huda Al-Harthi,Finance,2025-02-09,Amazon Business,Technology,1072.27,Y,N,Y,N
+TXN-0006,EMP-013,Huda Al-Harthi,Finance,2025-02-09,Amazon Business,Technology,1072.27,Y,N,Y,N
+TXN-0007,EMP-008,Yusuf Khamis,IT,2025-02-09,Gulf Air,Travel,1484.38,Y,N,Y,N
+TXN-0008,EMP-008,Yusuf Khamis,IT,2025-02-09,Gulf Air,Travel,1484.38,Y,N,Y,N
+TXN-0009,EMP-006,Omar Khalil,Procurement,2025-01-05,Spotify,Subscriptions,135.02,Y,Y,N,N
+TXN-0010,EMP-003,John Smith,Operations,2025-02-23,Netflix,Subscriptions,63.62,Y,Y,N,N
+TXN-0011,EMP-004,Layla Mahmoud,HR,2025-03-18,Netflix,Subscriptions,68.08,Y,Y,N,N
+TXN-0012,EMP-008,Yusuf Khamis,IT,2025-04-13,Spotify,Subscriptions,18.72,Y,Y,N,N
+TXN-0013,EMP-015,Zainab Al-Hinai,Legal,2025-01-28,Lulu Hypermarket,Office Supplies,142.45,Y,Y,N,N
+TXN-0014,EMP-015,Zainab Al-Hinai,Legal,2025-01-12,Lulu Hypermarket,Office Supplies,63.25,Y,Y,N,N
+TXN-0015,EMP-005,Noor Al-Busaidi,Legal,2025-04-18,Spotify,Subscriptions,129.48,Y,Y,N,N
+TXN-0016,EMP-012,Tariq Salim,Procurement,2025-05-08,Deloitte,Professional Services,3411.46,N,N,N,Y
+TXN-0017,EMP-008,Yusuf Khamis,IT,2025-04-01,Emirates Airlines,Travel,2455.27,N,N,N,Y
+TXN-0018,EMP-007,Sara Al-Rashdi,Finance,2025-04-24,Amazon Business,Technology,3841.06,N,N,N,Y
+TXN-0019,EMP-003,John Smith,Operations,2025-05-18,Microsoft Store,Technology,4718.4,N,N,N,Y
+TXN-0020,EMP-001,Ahmed Al-Said,Finance,2025-06-01,Microsoft Store,Technology,3571.62,N,N,N,Y
+TXN-0021,EMP-002,Fatima Hassan,IT,2025-04-06,Deloitte,Professional Services,3000.14,N,N,N,Y
+TXN-0022,EMP-001,Ahmed Al-Said,Finance,2025-02-15,Carrefour,Office Supplies,1149.73,Y,N,N,N
+TXN-0023,EMP-006,Omar Khalil,Procurement,2025-04-09,Lulu Hypermarket,Office Supplies,2288.46,Y,N,N,N
+TXN-0024,EMP-013,Huda Al-Harthi,Finance,2025-01-16,Spotify,Subscriptions,1276.26,Y,N,N,N
+TXN-0025,EMP-001,Ahmed Al-Said,Finance,2025-03-08,Deloitte,Professional Services,1627.47,Y,N,N,N
+TXN-0026,EMP-011,Aisha Darwish,HR,2025-06-02,Emirates Airlines,Travel,2348.07,Y,N,N,N
+TXN-0027,EMP-013,Huda Al-Harthi,Finance,2025-02-27,Gulf Air,Travel,2849.84,Y,N,N,N
+TXN-0028,EMP-001,Ahmed Al-Said,Finance,2025-02-16,Microsoft Store,Technology,474.1,Y,N,N,N
+TXN-0029,EMP-011,Aisha Darwish,HR,2025-02-15,Emirates Airlines,Travel,1700.63,Y,N,N,N
+TXN-0030,EMP-012,Tariq Salim,Procurement,2025-02-20,Carrefour,Office Supplies,2305.36,Y,N,N,N
+TXN-0031,EMP-010,Khalid Nasser,Audit,2025-02-10,Deloitte,Professional Services,2160.7,Y,N,N,N
+TXN-0032,EMP-002,Fatima Hassan,IT,2025-03-19,Microsoft Store,Technology,96.52,Y,N,N,N
+TXN-0033,EMP-011,Aisha Darwish,HR,2025-06-07,Shell Oman,Fuel,1202.03,Y,N,N,N
+TXN-0034,EMP-002,Fatima Hassan,IT,2025-06-08,Microsoft Store,Technology,2078.03,Y,N,N,N
+TXN-0035,EMP-002,Fatima Hassan,IT,2025-06-20,Deloitte,Professional Services,2321.99,Y,N,N,N
+TXN-0036,EMP-013,Huda Al-Harthi,Finance,2025-05-26,Emirates Airlines,Travel,2392.76,Y,N,N,N
+TXN-0037,EMP-001,Ahmed Al-Said,Finance,2025-06-12,Lulu Hypermarket,Office Supplies,1607.58,Y,N,N,N
+TXN-0038,EMP-002,Fatima Hassan,IT,2025-01-28,Amazon Business,Technology,1949.68,Y,N,N,N
+TXN-0039,EMP-007,Sara Al-Rashdi,Finance,2025-04-12,Spotify,Subscriptions,1480.8,Y,N,N,N
+TXN-0040,EMP-011,Aisha Darwish,HR,2025-02-14,Spotify,Subscriptions,1390.02,Y,N,N,N
+TXN-0041,EMP-003,John Smith,Operations,2025-06-09,Deloitte,Professional Services,1574.81,Y,N,N,N
+TXN-0042,EMP-010,Khalid Nasser,Audit,2025-04-15,Netflix,Subscriptions,2760.46,Y,N,N,N
+TXN-0043,EMP-007,Sara Al-Rashdi,Finance,2025-03-11,Spotify,Subscriptions,2198.46,Y,N,N,N
+TXN-0044,EMP-014,Ibrahim Juma,IT,2025-01-09,The Chedi Muscat,Dining,2495.58,Y,N,N,N
+TXN-0045,EMP-015,Zainab Al-Hinai,Legal,2025-04-19,ADNOC,Fuel,746.71,Y,N,N,N
+TXN-0046,EMP-010,Khalid Nasser,Audit,2025-01-16,McKinsey Oman,Professional Services,1149.39,Y,N,N,N
+TXN-0047,EMP-014,Ibrahim Juma,IT,2025-02-12,Lulu Hypermarket,Office Supplies,561.88,Y,N,N,N
+TXN-0048,EMP-013,Huda Al-Harthi,Finance,2025-05-23,Carrefour,Office Supplies,1034.21,Y,N,N,N
+TXN-0049,EMP-015,Zainab Al-Hinai,Legal,2025-05-07,Carrefour,Office Supplies,1676.26,Y,N,N,N
+TXN-0050,EMP-002,Fatima Hassan,IT,2025-04-18,The Chedi Muscat,Dining,2165.82,Y,N,N,N
+TXN-0051,EMP-013,Huda Al-Harthi,Finance,2025-06-23,The Chedi Muscat,Dining,2078.02,Y,N,N,N
+TXN-0052,EMP-008,Yusuf Khamis,IT,2025-01-10,ADNOC,Fuel,2382.94,Y,N,N,N
+TXN-0053,EMP-004,Layla Mahmoud,HR,2025-03-22,Shell Oman,Fuel,2081.53,Y,N,N,N
+TXN-0054,EMP-010,Khalid Nasser,Audit,2025-05-12,Lulu Hypermarket,Office Supplies,1430.32,Y,N,N,N
+TXN-0055,EMP-007,Sara Al-Rashdi,Finance,2025-03-23,Deloitte,Professional Services,1660.16,Y,N,N,N
+TXN-0056,EMP-008,Yusuf Khamis,IT,2025-02-04,Carrefour,Office Supplies,933.74,Y,N,N,N
+TXN-0057,EMP-012,Tariq Salim,Procurement,2025-06-18,The Chedi Muscat,Dining,960.33,Y,N,N,N
+TXN-0058,EMP-013,Huda Al-Harthi,Finance,2025-02-24,Deloitte,Professional Services,571.75,Y,N,N,N
+TXN-0059,EMP-008,Yusuf Khamis,IT,2025-05-20,Carrefour,Office Supplies,2179.26,Y,N,N,N
+TXN-0060,EMP-005,Noor Al-Busaidi,Legal,2025-03-08,Emirates Airlines,Travel,2501.23,Y,N,N,N
+TXN-0061,EMP-006,Omar Khalil,Procurement,2025-06-18,Al Bustan Restaurant,Dining,920.76,Y,N,N,N
+TXN-0062,EMP-003,John Smith,Operations,2025-01-18,Carrefour,Office Supplies,155.64,Y,N,N,N
+TXN-0063,EMP-005,Noor Al-Busaidi,Legal,2025-06-28,Deloitte,Professional Services,2833.39,Y,N,N,N
+TXN-0064,EMP-013,Huda Al-Harthi,Finance,2025-01-19,ADNOC,Fuel,325.71,Y,N,N,N
+TXN-0065,EMP-005,Noor Al-Busaidi,Legal,2025-03-06,ADNOC,Fuel,1446.57,Y,N,N,N
+TXN-0066,EMP-001,Ahmed Al-Said,Finance,2025-04-04,Carrefour,Office Supplies,2824.37,Y,N,N,N
+TXN-0067,EMP-014,Ibrahim Juma,IT,2025-01-19,Emirates Airlines,Travel,1214.11,Y,N,N,N
+TXN-0068,EMP-011,Aisha Darwish,HR,2025-02-26,McKinsey Oman,Professional Services,179.76,Y,N,N,N
+TXN-0069,EMP-010,Khalid Nasser,Audit,2025-02-04,Carrefour,Office Supplies,273.84,Y,N,N,N
+TXN-0070,EMP-009,Mariam Al-Lawati,Operations,2025-05-26,Netflix,Subscriptions,1260.2,Y,N,N,N
+TXN-0071,EMP-010,Khalid Nasser,Audit,2025-04-15,The Chedi Muscat,Dining,2331.57,Y,N,N,N
+TXN-0072,EMP-015,Zainab Al-Hinai,Legal,2025-05-14,ADNOC,Fuel,906.11,Y,N,N,N
+TXN-0073,EMP-005,Noor Al-Busaidi,Legal,2025-05-24,Microsoft Store,Technology,1870.66,Y,N,N,N
+TXN-0074,EMP-002,Fatima Hassan,IT,2025-02-09,Netflix,Subscriptions,639.21,Y,N,N,N
+TXN-0075,EMP-011,Aisha Darwish,HR,2025-02-18,Emirates Airlines,Travel,488.03,Y,N,N,N
+TXN-0076,EMP-002,Fatima Hassan,IT,2025-04-23,Al Bustan Restaurant,Dining,27.97,Y,N,N,N
+TXN-0077,EMP-010,Khalid Nasser,Audit,2025-02-10,ADNOC,Fuel,887.95,Y,N,N,N
+TXN-0078,EMP-012,Tariq Salim,Procurement,2025-04-03,Carrefour,Office Supplies,2114.9,Y,N,N,N
+TXN-0079,EMP-011,Aisha Darwish,HR,2025-06-19,The Chedi Muscat,Dining,2773.25,Y,N,N,N
+TXN-0080,EMP-011,Aisha Darwish,HR,2025-04-04,Netflix,Subscriptions,2802.33,Y,N,N,N
+TXN-0081,EMP-009,Mariam Al-Lawati,Operations,2025-03-27,The Chedi Muscat,Dining,1949.95,Y,N,N,N
+TXN-0082,EMP-003,John Smith,Operations,2025-03-20,Emirates Airlines,Travel,197.72,Y,N,N,N
+TXN-0083,EMP-012,Tariq Salim,Procurement,2025-03-15,Spotify,Subscriptions,1716.24,Y,N,N,N
+TXN-0084,EMP-002,Fatima Hassan,IT,2025-06-13,ADNOC,Fuel,2072.26,Y,N,N,N
+TXN-0085,EMP-005,Noor Al-Busaidi,Legal,2025-04-03,Amazon Business,Technology,1629.15,Y,N,N,N
+TXN-0086,EMP-010,Khalid Nasser,Audit,2025-06-11,Gulf Air,Travel,2670.48,Y,N,N,N
+TXN-0087,EMP-010,Khalid Nasser,Audit,2025-02-22,Carrefour,Office Supplies,97.08,Y,N,N,N
+TXN-0088,EMP-014,Ibrahim Juma,IT,2025-01-25,Spotify,Subscriptions,1734.09,Y,N,N,N
+TXN-0089,EMP-011,Aisha Darwish,HR,2025-01-25,Spotify,Subscriptions,823.14,Y,N,N,N
+TXN-0090,EMP-013,Huda Al-Harthi,Finance,2025-06-15,Al Bustan Restaurant,Dining,1422.09,Y,N,N,N
+TXN-0091,EMP-015,Zainab Al-Hinai,Legal,2025-05-14,Carrefour,Office Supplies,560.84,Y,N,N,N
+TXN-0092,EMP-011,Aisha Darwish,HR,2025-01-16,Spotify,Subscriptions,1485.34,Y,N,N,N
+TXN-0093,EMP-006,Omar Khalil,Procurement,2025-06-04,Shell Oman,Fuel,1013.26,Y,N,N,N
+TXN-0094,EMP-014,Ibrahim Juma,IT,2025-06-16,Al Bustan Restaurant,Dining,1002.81,Y,N,N,N
+TXN-0095,EMP-005,Noor Al-Busaidi,Legal,2025-05-02,McKinsey Oman,Professional Services,2836.68,Y,N,N,N
+TXN-0096,EMP-008,Yusuf Khamis,IT,2025-03-04,Emirates Airlines,Travel,957.26,Y,N,N,N
+TXN-0097,EMP-013,Huda Al-Harthi,Finance,2025-01-22,Shell Oman,Fuel,2597.43,Y,N,N,N
+TXN-0098,EMP-014,Ibrahim Juma,IT,2025-01-07,Amazon Business,Technology,1396.69,Y,N,N,N
+TXN-0099,EMP-009,Mariam Al-Lawati,Operations,2025-04-21,Lulu Hypermarket,Office Supplies,1875.45,Y,N,N,N
+TXN-0100,EMP-008,Yusuf Khamis,IT,2025-03-18,Netflix,Subscriptions,173.8,Y,N,N,N

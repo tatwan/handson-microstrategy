@@ -1,0 +1,61 @@
+Booking_ID,Employee_ID,Employee_Name,Department,Destination,Travel_Date,Return_Date,Nights,Hotel_Name,Hotel_Rate_Per_Night,Total_Hotel_Cost,Policy_Rate_Per_Night,Per_Diem_Claimed,Standard_Per_Diem,Total_Per_Diem,Is_Out_Of_Policy,Is_Excessive_Per_Diem,Is_Duplicate_Claim
+TRV-001,EMP-003,John Smith,Operations,Doha,2025-01-01,2025-01-06,5,Holiday Inn,200,1000,220,110,110,550,N,N,Y
+TRV-002,EMP-003,John Smith,Operations,Doha,2025-01-01,2025-01-06,5,Holiday Inn,200,1000,220,110,110,550,N,N,Y
+TRV-003,EMP-010,Khalid Nasser,Audit,Muscat,2025-03-18,2025-03-21,3,InterContinental,180,540,180,90,90,270,N,N,Y
+TRV-004,EMP-010,Khalid Nasser,Audit,Muscat,2025-03-18,2025-03-21,3,InterContinental,180,540,180,90,90,270,N,N,Y
+TRV-005,EMP-009,Mariam Al-Lawati,Operations,Abu Dhabi,2025-01-15,2025-01-18,3,Hilton,210,630,240,115,115,345,N,N,Y
+TRV-006,EMP-009,Mariam Al-Lawati,Operations,Abu Dhabi,2025-01-15,2025-01-18,3,Hilton,210,630,240,115,115,345,N,N,Y
+TRV-007,EMP-009,Mariam Al-Lawati,Operations,London,2025-05-17,2025-05-19,2,Holiday Inn,292,584,300,150,150,300,N,N,N
+TRV-008,EMP-014,Ibrahim Juma,IT,Riyadh,2025-04-11,2025-04-18,7,Sheraton,168,1176,200,100,100,700,N,N,N
+TRV-009,EMP-005,Noor Al-Busaidi,Legal,Dubai,2025-03-27,2025-04-02,6,Sheraton,213,1278,250,120,120,720,N,N,N
+TRV-010,EMP-010,Khalid Nasser,Audit,Cairo,2025-04-18,2025-04-20,2,Crowne Plaza,120,240,150,80,80,160,N,N,N
+TRV-011,EMP-006,Omar Khalil,Procurement,Bahrain,2025-05-13,2025-05-20,7,Radisson,161,1127,190,95,95,665,N,N,N
+TRV-012,EMP-015,Zainab Al-Hinai,Legal,Bahrain,2025-06-08,2025-06-10,2,Crowne Plaza,154,308,190,95,95,190,N,N,N
+TRV-013,EMP-007,Sara Al-Rashdi,Finance,Muscat,2025-04-02,2025-04-09,7,Crowne Plaza,160,1120,180,90,90,630,N,N,N
+TRV-014,EMP-012,Tariq Salim,Procurement,Cairo,2025-04-13,2025-04-20,7,InterContinental,239,1673,150,80,80,560,Y,N,N
+TRV-015,EMP-013,Huda Al-Harthi,Finance,London,2025-02-17,2025-02-18,1,Holiday Inn,263,263,300,150,150,150,N,N,N
+TRV-016,EMP-006,Omar Khalil,Procurement,Riyadh,2025-04-04,2025-04-11,7,Crowne Plaza,282,1974,200,100,100,700,Y,N,N
+TRV-017,EMP-008,Yusuf Khamis,IT,Dubai,2025-04-28,2025-04-30,2,InterContinental,241,482,250,120,120,240,N,N,N
+TRV-018,EMP-002,Fatima Hassan,IT,Cairo,2025-03-20,2025-03-23,3,Crowne Plaza,125,375,150,80,80,240,N,N,N
+TRV-019,EMP-011,Aisha Darwish,HR,Riyadh,2025-06-28,2025-07-01,3,Crowne Plaza,166,498,200,100,100,300,N,N,N
+TRV-020,EMP-007,Sara Al-Rashdi,Finance,Bahrain,2025-04-28,2025-05-04,6,InterContinental,156,936,190,95,95,570,N,N,N
+TRV-021,EMP-001,Ahmed Al-Said,Finance,Riyadh,2025-06-10,2025-06-16,6,Marriott,186,1116,200,100,100,600,N,N,N
+TRV-022,EMP-012,Tariq Salim,Procurement,Riyadh,2025-06-23,2025-06-24,1,Holiday Inn,194,194,200,100,100,100,N,N,N
+TRV-023,EMP-008,Yusuf Khamis,IT,London,2025-01-02,2025-01-05,3,InterContinental,280,840,300,150,150,450,N,N,N
+TRV-024,EMP-013,Huda Al-Harthi,Finance,Dubai,2025-03-14,2025-03-17,3,Sheraton,241,723,250,171,120,513,N,Y,N
+TRV-025,EMP-007,Sara Al-Rashdi,Finance,London,2025-01-20,2025-01-22,2,Marriott,465,930,300,150,150,300,Y,N,N
+TRV-026,EMP-010,Khalid Nasser,Audit,Muscat,2025-02-08,2025-02-13,5,Holiday Inn,151,755,180,90,90,450,N,N,N
+TRV-027,EMP-011,Aisha Darwish,HR,Doha,2025-06-01,2025-06-04,3,Holiday Inn,191,573,220,193,110,579,N,Y,N
+TRV-028,EMP-011,Aisha Darwish,HR,London,2025-03-19,2025-03-23,4,Hilton,281,1124,300,150,150,600,N,N,N
+TRV-029,EMP-011,Aisha Darwish,HR,Abu Dhabi,2025-04-28,2025-05-01,3,InterContinental,221,663,240,115,115,345,N,N,N
+TRV-030,EMP-004,Layla Mahmoud,HR,Abu Dhabi,2025-01-08,2025-01-12,4,Crowne Plaza,216,864,240,115,115,460,N,N,N
+TRV-031,EMP-010,Khalid Nasser,Audit,Bahrain,2025-06-10,2025-06-13,3,Radisson,189,567,190,95,95,285,N,N,N
+TRV-032,EMP-014,Ibrahim Juma,IT,Abu Dhabi,2025-05-28,2025-05-29,1,Sheraton,237,237,240,115,115,115,N,N,N
+TRV-033,EMP-015,Zainab Al-Hinai,Legal,Cairo,2025-02-20,2025-02-23,3,Crowne Plaza,128,384,150,80,80,240,N,N,N
+TRV-034,EMP-004,Layla Mahmoud,HR,Muscat,2025-06-25,2025-06-28,3,Radisson,172,516,180,90,90,270,N,N,N
+TRV-035,EMP-011,Aisha Darwish,HR,Riyadh,2025-01-10,2025-01-16,6,InterContinental,172,1032,200,100,100,600,N,N,N
+TRV-036,EMP-001,Ahmed Al-Said,Finance,Bahrain,2025-01-10,2025-01-12,2,InterContinental,170,340,190,159,95,318,N,Y,N
+TRV-037,EMP-003,John Smith,Operations,Muscat,2025-05-12,2025-05-19,7,Marriott,147,1029,180,90,90,630,N,N,N
+TRV-038,EMP-009,Mariam Al-Lawati,Operations,Doha,2025-03-27,2025-03-29,2,Crowne Plaza,347,694,220,110,110,220,Y,N,N
+TRV-039,EMP-013,Huda Al-Harthi,Finance,Doha,2025-03-26,2025-04-02,7,InterContinental,274,1918,220,110,110,770,Y,N,N
+TRV-040,EMP-002,Fatima Hassan,IT,London,2025-06-24,2025-06-26,2,Crowne Plaza,275,550,300,150,150,300,N,N,N
+TRV-041,EMP-014,Ibrahim Juma,IT,Bahrain,2025-04-01,2025-04-08,7,Hilton,174,1218,190,149,95,1043,N,Y,N
+TRV-042,EMP-008,Yusuf Khamis,IT,Bahrain,2025-06-09,2025-06-15,6,InterContinental,153,918,190,142,95,852,N,Y,N
+TRV-043,EMP-011,Aisha Darwish,HR,Bahrain,2025-02-16,2025-02-22,6,Hilton,189,1134,190,95,95,570,N,N,N
+TRV-044,EMP-010,Khalid Nasser,Audit,Bahrain,2025-06-03,2025-06-05,2,Radisson,150,300,190,95,95,190,N,N,N
+TRV-045,EMP-014,Ibrahim Juma,IT,Cairo,2025-06-14,2025-06-17,3,InterContinental,143,429,150,80,80,240,N,N,N
+TRV-046,EMP-003,John Smith,Operations,Dubai,2025-04-04,2025-04-07,3,Hilton,244,732,250,120,120,360,N,N,N
+TRV-047,EMP-004,Layla Mahmoud,HR,London,2025-03-22,2025-03-26,4,Holiday Inn,266,1064,300,150,150,600,N,N,N
+TRV-048,EMP-007,Sara Al-Rashdi,Finance,London,2025-01-27,2025-02-02,6,Holiday Inn,419,2514,300,150,150,900,Y,N,N
+TRV-049,EMP-007,Sara Al-Rashdi,Finance,Doha,2025-03-07,2025-03-13,6,Hilton,192,1152,220,110,110,660,N,N,N
+TRV-050,EMP-008,Yusuf Khamis,IT,Muscat,2025-01-22,2025-01-25,3,Crowne Plaza,157,471,180,90,90,270,N,N,N
+TRV-051,EMP-009,Mariam Al-Lawati,Operations,Bahrain,2025-03-07,2025-03-11,4,Hilton,183,732,190,95,95,380,N,N,N
+TRV-052,EMP-014,Ibrahim Juma,IT,Cairo,2025-02-21,2025-02-27,6,Hilton,218,1308,150,80,80,480,Y,N,N
+TRV-053,EMP-001,Ahmed Al-Said,Finance,Dubai,2025-02-05,2025-02-08,3,Crowne Plaza,214,642,250,120,120,360,N,N,N
+TRV-054,EMP-004,Layla Mahmoud,HR,Riyadh,2025-05-07,2025-05-14,7,Crowne Plaza,163,1141,200,100,100,700,N,N,N
+TRV-055,EMP-004,Layla Mahmoud,HR,Muscat,2025-02-26,2025-03-05,7,Sheraton,142,994,180,90,90,630,N,N,N
+TRV-056,EMP-001,Ahmed Al-Said,Finance,Doha,2025-02-18,2025-02-20,2,Crowne Plaza,286,572,220,110,110,220,Y,N,N
+TRV-057,EMP-003,John Smith,Operations,Riyadh,2025-01-05,2025-01-12,7,InterContinental,200,1400,200,100,100,700,N,N,N
+TRV-058,EMP-006,Omar Khalil,Procurement,Muscat,2025-01-06,2025-01-09,3,Radisson,164,492,180,119,90,357,N,Y,N
+TRV-059,EMP-012,Tariq Salim,Procurement,Abu Dhabi,2025-06-03,2025-06-04,1,Radisson,210,210,240,115,115,115,N,N,N
+TRV-060,EMP-008,Yusuf Khamis,IT,Bahrain,2025-01-15,2025-01-20,5,Radisson,158,790,190,95,95,475,N,N,N

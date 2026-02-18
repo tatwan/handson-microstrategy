@@ -418,27 +418,31 @@ This dashboard monitors three categories of payment exceptions:
 
 2. Click **New Data** and import `payment_transactions.csv`. Click **Prepare Data**.
 
-3. Convert the following columns to **Metrics**:
+3. Convert the following columns to **Metrics** if they are not already detected as such:
    - `PO_Amount`
    - `Payment_Amount`
    - `Days_Overdue`
 
+   <img src="images/image-20260218122738612.png" alt="image-20260218122738612" style="zoom:50%;" />
+   
 4. Verify that `Aging_Bucket`, `Is_Duplicate`, `Is_Overpayment`, and `Is_Overdue` remain as **Attributes**. Click **Finish**.
 
    
 
 ### KPI 1: Total Payments
 
-5. Add a **KPI** visualization using `Row Count - payment_transactions.csv`. Rename the metric to `Total Payments`.
+5. Rename `Row Count - payment_transactions.csv` to `Total Payments`. 
 
-   
+5. In the existing grid visualization, click the three dots, select __Change Visualization…__,  select the **KPI** visualization and add `Total Payments`
+
+   You can disable the title bar to remove “Visualization 1”.
 
 ### KPI 2: Duplicate Payment Count
 
-6. Create a derived metric:
+6. Click __Create Objects__, select __Metric__, in the Metric Editor click  to __Formula Editor__:
 
    ```
-   Sum(If(Is_Duplicate = "Y", 1, 0))
+   Sum( IF ([Is Duplicate]@ID="Y", 1, 0))
    ```
 
    Name it `Duplicate Payment Count`. Add it as a KPI.
@@ -446,10 +450,10 @@ This dashboard monitors three categories of payment exceptions:
 
 ### KPI 3: Overpayment Count
 
-7. Create a derived metric:
+7. Create another derived metric:
 
    ```
-   Sum(If(Is_Overpayment = "Y", 1, 0))
+   Sum( If ([Is Overpayment]@ID="Y", 1, 0))
    ```
 
    Name it `Overpayment Count`. Add it as a KPI.
@@ -469,7 +473,32 @@ This dashboard monitors three categories of payment exceptions:
 
 9. Arrange the four KPIs in a row at the top.
 
-   
+
+> [!Tip]
+>
+> # [Optional ]
+>
+> __If you like a challenge on how to derive/recreate `Is Duplicate`, `Is Overpayment` then here is how you can do it:__
+>
+> * Start by creating a new metric, `Count Invoices` that counts at the Invoice level. This way if an invoice repeats twice, the count will be 2, if the invoice appears once it will be 1, if three times then the count is 3 and so on.
+>
+>   <img src="images/image-20260218173137147.png" alt="image-20260218173137147" style="zoom:50%;" />
+>
+>   Check The Formula Editor to make sure it is aligned with the following
+>
+>   <img src="images/image-20260218173156815.png" alt="image-20260218173156815" style="zoom:50%;" />
+>
+> * Create another derived metric,  `Is Duplicated Payment` to show “Y” or “N” similar to the existing `Is Duplicate` attribute which are attempting to recreate.  In the formula you can us this logic ` IF(([Count Invoices]>1), "Y", "N")`
+>
+>   ![image-20260218173346211](images/image-20260218173346211.png)
+>
+> You can test it as shown:
+>
+> <img src="images/image-20260218173405040.png" alt="image-20260218173405040" style="zoom:50%;" />
+>
+> * To recreate `Is Overpayment`, you can create either a metric or an attribute. Let’s create `Is Over Paid` attribute using the following logic `IF(([Payment Amount]>[PO Amount]), "Y", "N")`:
+>
+>   ![image-20260218182644997](images/image-20260218182644997.png)
 
 ### Grid: Payment Exception Details
 
@@ -488,7 +517,9 @@ This dashboard monitors three categories of payment exceptions:
 
 11. Name this visualization `Payment Exception Details`.
 
-12. Apply a **visualization-level filter** to show only flagged records: `Is_Duplicate = Y` OR `Is_Overpayment = Y` OR `Is_Overdue = Y`.
+12. Apply a **visualization-level filter** (select Edit Filter from the visualization menu) to show only flagged records: `Is_Duplicate = Y` OR `Is_Overpayment = Y` OR `Is_Overdue = Y`.
+
+    ![image-20260218183227376](images/image-20260218183227376.png)
 
     > **Tip:** Similar to Chapter 2, you may create a derived attribute: `Has_Any_Flag = If(Is_Duplicate = "Y" OR Is_Overpayment = "Y" OR Is_Overdue = "Y", "Y", "N")` and filter on `Has_Any_Flag = Y`.
 
@@ -501,25 +532,27 @@ This dashboard monitors three categories of payment exceptions:
     - **61-90 Days** → Background color **Orange**
     - **Over 90 Days** → Background color **Red**, font color **White**
 
-    
+    <img src="images/image-20260218191947425.png" alt="image-20260218191947425" style="zoom:50%;" />
 
 14. The grid should now visually highlight the severity of overdue payments using a color gradient from yellow to red.
 
-    
+    ![image-20260218192001652](images/image-20260218192001652.png)
 
 ### Derived Attribute: Aging Bucket (Alternative Method)
 
 15. If you want to practice creating a **derived attribute** from a numeric field, you can recreate the aging bucket classification. In the Formula Editor, create a new attribute:
 
     ```
-    If(Days_Overdue = 0, "Current",
-       If(Days_Overdue <= 30, "1-30 Days",
-          If(Days_Overdue <= 60, "31-60 Days",
-             If(Days_Overdue <= 90, "61-90 Days", "Over 90 Days"))))
+    Case([Days Overdue]=0, "Current", 
+    		[Days Overdue]<=30, "1-30 Days", 
+    		[Days Overdue]<=60, "31-60 Days", 
+    		[Days Overdue]<=90, "61-90 Days", "Over 90 Days")
     ```
 
     Name it `Aging Category`. This is a **derived attribute** — a new categorical field computed from a numeric metric. This technique is useful when your source data does not already include a bucketed field.
 
+    ![image-20260218192356881](images/image-20260218192356881.png)
+    
     
 
 ### Horizontal Bar Chart: Overdue Amount by Vendor
@@ -542,7 +575,8 @@ This dashboard monitors three categories of payment exceptions:
 
 21. Your completed Payment Exceptions chapter should include 4 KPIs at top, the filtered and color-coded grid in the middle, and two charts at the bottom:
 
-    
+
+![image-20260218192945142](images/image-20260218192945142.png)
 
 ---
 
